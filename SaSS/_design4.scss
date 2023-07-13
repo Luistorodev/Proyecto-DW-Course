@@ -1,0 +1,390 @@
+.hero-banner{
+    padding-top: 80px;
+    padding-bottom: 156px;
+    text-align: center;
+
+    .p-description{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        
+        text-align: center;
+        letter-spacing: -0.1px;
+        
+        /* Primary/600 */
+        
+        color: #437EF7;
+    }
+
+
+    h1{
+        @include h1-text;
+        color: $gray-900;
+        text-align: center;
+    }
+
+
+    .L-description{
+        @include descriptions-text;
+        color: $gray-900;
+    }
+
+}
+/* First Section Finish */
+
+/* Second Section */
+.plans__stack{
+    display: flex;
+    padding: 64px 5%;
+    gap: 32px;
+    justify-content: center;
+
+
+    .plans__stack--items{
+        width: 384px;
+        padding: 32px;
+        background: #FFFFFF;
+        /* Neutral/600 */
+    
+        border: 1px solid #EAEBF0;
+        /* Shadow/XSM */
+    
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+        border-radius: 5px;
+
+
+
+        h3{
+            @include h2-text;
+            color: $gray-900;
+            margin: 0%;
+        }
+
+        span{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            /* identical to box height, or 140% */
+            
+            
+            /* Gray/50 */
+            
+            color: #5F6D7E;   
+        }
+
+        .plan-name{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            /* identical to box height, or 140% */
+            
+            letter-spacing: -0.02em;
+            
+            /* Gray/700 */
+            
+            color: #272D37;
+        }
+
+        .plan-desc{
+            /* Text L/Regular */
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            
+            letter-spacing: -0.1px;
+            
+            /* Gray/50 */
+            
+            color: #5F6D7E;
+            }
+
+        hr{
+            border: 1px solid #EAEBF0;
+        }
+        
+        .plan-feat{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+            
+            letter-spacing: -0.1px;
+            display: flex;
+            gap: 12px;
+        }
+
+        button{
+            width: 100%;
+            padding: 12px 18px;
+            /* Primary/600 */
+        
+            background: #437EF7;
+            /* Shadow/XSM */
+        
+            box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+            border-radius: 6px;
+            border: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height, or 147% */
+            
+            
+            /* Base/White */
+            
+            color: #FFFFFF;
+        }
+    }
+
+
+
+
+
+}
+/* Second Section Finish */
+
+/* third Section  */
+.messages {
+    padding: 64px 5%;
+
+    h2{
+        @include h2-text;
+        color: $gray-900;
+        text-align: center;
+    }
+
+    p{
+        @include descriptions-text;
+        color: $gray-900;
+        text-align: center;
+    }
+
+    .benefits__item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 32px;
+        row-gap: 64px;
+        margin-top: 64px;
+    }
+
+    .benefits__item-card{
+        width: 384px;
+
+        h3{
+            @include h3-text;
+            color: $gray-900;
+        }
+
+        p{
+            @include descriptions-text;
+            color: $gray-900;
+        }
+
+        a{
+            @include links;
+        }
+    }
+
+}
+/* third Section Finish */
+
+/* Opinion Section   */
+.opinion{
+    padding: 64px 5%;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+
+
+    .opinion__items{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-top: auto;
+        margin-bottom: auto;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+
+        .opinion{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 38px;
+            /* or 136% */
+            
+            letter-spacing: -0.01em;
+            
+            /* Gray/700 */
+            
+            color: $gray-900;
+            padding: 0%;
+            
+        }
+
+        .author{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+            
+            letter-spacing: -0.1px;
+            
+            /* Gray/50 */
+            
+            color: #5F6D7E;
+        }
+
+        button{
+            padding: 12px;
+            /* Primary/600 */
+            
+            background: #437EF7;
+            /* Shadow/XSM */
+            
+            box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+            border-radius: 6px;
+            border: none;
+            color: #fefeff;
+            align-content: center;
+            align-items: center;
+            }
+            
+        }
+    
+
+
+
+}
+/* Opinion Section finish */
+
+/* Asked Qestions Section */
+.frecuently{
+    padding: 64px 5%;
+
+    h2{
+        @include h2-text;
+        color: $gray-900;
+        text-align: center;
+    }
+
+    p.sect-description{
+        @include descriptions-text;
+        color: $neutral-900;
+        text-align: center;
+    }
+
+    .accordions-stack{
+        display: flex;
+        gap:16px;
+        justify-content: center;
+        margin-bottom:16px;
+
+        .accordion__item{
+            display: flex;
+            width: 632px;
+            justify-content: space-between;
+            padding: 12px 24px;
+            border: 1px solid #DAE0E6;
+            border-radius: 6px;
+            align-items: center;
+        
+            p{
+                @include descriptions-text;
+                color: $gray-900;
+                margin: 0%;
+            }
+
+            i{
+                margin: 0%;
+                display: flex;
+                color: #272D37;
+            }
+        }
+    }
+}
+/* Asked Qestions Section Finish */
+
+/* Last Section */
+.last__sect{
+    padding: 64px 5%;
+    background: #2B63D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    h2{
+        @include h2-text;
+        color: $neutral-25;
+    }
+
+    button{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height, or 147% */
+    
+        text-align: center;
+    
+        /* Primary/600 */
+    
+        color: #437EF7;
+        background: #FFFFFF;
+        border-radius: 6px;
+        padding: 12px 18px;
+        border: none;
+    }
+}
+/* Media Queries */
+/* 1440px ✅ */
+/* Medium Screen ✅ */
+/* Ipad Pro 12 ✅ */
+
+/* ipad  Media querie ✅ */
+
+@media screen and (width < 800px){
+    
+    .plans__stack{
+        flex-wrap: wrap;
+    }
+    
+    
+    .opinion{
+        flex-direction: column-reverse;
+    }
+
+    .opinion img{
+        height: 100%;
+    }
+
+    .accordions-stack{
+        flex-direction: column;
+    }
+
+    .frecuently .accordions-stack .accordion__item{
+        width: auto;
+    }
+
+}

@@ -1,0 +1,482 @@
+.hero-3page{
+    display: flex;
+    padding: 48px 5%;
+    background-color: #F8F9FB;
+    gap: 64px;
+
+    p{
+        display: flex;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        letter-spacing: -0.1px;
+        /* Primary/600 */
+        color: #437EF7;
+        gap: 8px;
+    }
+
+    h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 60px;
+        /* or 115% */
+        
+        letter-spacing: -0.01em;
+        
+        /* Gray/700 */
+        
+        color: #272D37;
+    }
+
+    p.p-description{
+        @include descriptions-text;
+        color: $gray-950;
+    }
+    
+
+    .hero__btn--stack{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        button{
+            @include blue-boton;
+            border: none;
+        }
+
+        a{
+            @include links;
+        }
+    }
+
+
+
+
+}
+
+
+/* hero Section Finish */
+
+/* Second Section */
+.second__section{
+    display: flex;
+    padding: 64px 5%;
+    justify-content: space-around;
+    gap: 48px;
+
+    h3{
+        @include h2-text;
+        color: $gray-900;
+    }
+
+    p{
+        @include descriptions-text;
+        color: $gray-50;
+    }
+
+
+
+
+
+
+
+}
+
+
+/* Second Section Finish */
+
+/* Third Section */
+.our-channels{
+    padding: 64px 5%;
+    background: #2B63D9;
+
+    h3.header{
+        @include h2-text;
+        color: $neutral-25;
+        text-align: center;
+    }
+
+    p.p-description{
+        @include descriptions-text;
+        color: $neutral-200;
+        text-align: center;
+    }
+
+    .our-channels__stack--items{
+        display: flex;
+        row-gap: 32px;
+        column-gap: 32px;
+        flex-direction: row;
+        justify-content: space-around;
+    
+
+        .our__items--card{
+            margin-top: 32px;
+            background: #3971E7;
+            border-radius: 5px;
+            padding: 24px 32px;
+            .icon-btn{
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 1.5rem;
+                button{
+                    width: 118px;
+                    height: 46px;
+                    
+                    /* Base/White */
+                    
+                    background: #FFFFFF;
+                    border-radius: 6px;
+                    border: none;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 22px;
+                    /* identical to box height, or 147% */
+                
+                
+                    /* Primary/600 */
+                
+                    color: #437EF7;
+                }
+
+            }
+
+            h3{
+                @include h3-text;
+                color: $neutral-25;
+            }
+
+            p{
+                @include descriptions-text;
+                color: $neutral-25;
+            }
+        }
+    }
+
+
+
+
+
+}
+
+/* Third Section Finish */
+
+/* fourth Section*/
+
+.fourt-section{
+    padding: 64px 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        
+        letter-spacing: -0.1px;
+        color: $primary-900;
+    }
+
+    h2{
+        @include h2-text;
+        color: $gray-900;
+    }
+
+    button{
+        @include blue-boton;
+        border: none;
+    }
+}
+
+
+/* fourth Section Finish */
+
+/* fifth Section*/
+
+.ourTeam{
+    padding: 64px 5%;
+
+    h3.sect-tittle{
+        @include h2-text;
+        color: $gray-900;
+        text-align: center;
+    }
+
+    p.sect-description{
+        @include descriptions-text;
+        color: $gray-50;
+        text-align: center;
+    }
+
+
+    .ourTeam__profiles{
+        display: flex;
+        justify-content: space-around;
+        .ourTeam__profiles-item{
+            width: 576px;
+            display: flex;
+            gap: 24px;
+            margin-top: 64px;
+            h3{
+                @include h3-text;
+                color: $gray-900;
+                margin: 0%;
+            }
+
+            h4{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                letter-spacing: -0.1px;
+                /* Primary/600 */
+                color: #437EF7;
+                margin-top: auto;
+            }
+
+            p{
+                @include descriptions-text;
+                color: $neutral-900;
+            }
+
+            .content__item .icon-stack-h{
+                display: flex;
+                gap: 16px;
+            }
+        }
+    }
+}
+
+
+
+
+/* fifth Section Finish*/
+
+
+/* Asked Section */
+.questions{
+    padding: 64px 5%;
+
+    h2{
+        @include h2-text;
+        color: $gray-900;
+        text-align: center;
+    }
+
+    p.description{
+        @include descriptions-text;
+        color: $neutral-900;
+        text-align: center;
+    }
+
+
+    .celda{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.25rem 2rem;
+        border-radius: 0.3125rem;
+        border: 1px solid var(--neutral-600, #EAEBF0);
+        background: var(--base-white, #FFF);
+        align-items: center;
+
+        p.tittle{
+            color: var(--gray-700, #272D37);
+            font-size: 1.125rem;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.75rem;
+            letter-spacing: -0.00625rem;
+            margin: 0%;
+        }
+
+        p.description{
+            color: var(--gray-50, #5F6D7E);
+            font-size: 1rem;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5rem;
+            letter-spacing: -0.00625rem;
+            margin: 0%;
+        }
+
+        a{
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.3125rem;
+            background: var(--primary-25, #F5FAFF);
+            color: var(--primary-600, #437EF7);
+            font-size: 0.875rem;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.25rem;
+            letter-spacing: -0.00625rem;
+            text-decoration: none;
+        }
+
+
+        .options{
+            display: flex;
+            gap: 2rem;
+
+            p.date-act{
+                color: var(--gray-50, #5F6D7E);
+                font-size: 1rem;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.5rem;
+                letter-spacing: -0.00625rem;
+                margin: 0%;
+            }
+        }
+    }
+
+
+
+
+
+}
+
+/* Asked Section Finish */
+
+/* last Section  */
+.last__sect{
+    padding: 64px 5%;
+    text-align: center;
+    background: #2B63D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    h2{
+        @include h2-text;
+        color:$neutral-25;
+    }
+
+
+    
+.last__sect button{
+    padding: 12px 18px;
+    
+    width: 91px;
+    height: 46px;
+    
+    /* Base/White */
+    
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 147% */
+    /* Primary/600 */
+
+    color: #437EF7;
+}
+
+}
+
+
+/* last Section Finish */
+
+
+/* Media Queries */
+/* 1440px ✅ */
+/* Medium Screen ✅ */
+
+/* ipad pro 12 Media querie ✅ */
+@media screen and (width < 1025px){
+    
+    .hero-3page .hero__img--div img{
+        width: 100%;
+    }
+
+    .our-channels .our-channels__stack--items{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .our-channels .our-channels__stack--items .our__items--card{
+        margin: 0%;
+    }
+
+}
+
+/* ipad  Media querie ✅ */
+
+@media screen and (width < 800px) {
+
+    .hero-3page{
+        padding-bottom: 3rem;
+    }
+
+    .hero-3page h1{
+        color: var(--gray-700, #272D37);
+    font-size: 2.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.75rem;
+    letter-spacing: -0.045rem;
+    }
+
+    .hero-3page .hero__img--div {
+        display: none;
+    }
+
+    .second__section{
+        flex-wrap: wrap;
+    }
+
+    .fourt-section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .fourt-section img{
+        width: 100%;
+    }
+
+    .ourTeam .ourTeam__profiles .ourTeam__profiles-item{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .ourTeam .ourTeam__profiles .ourTeam__profiles-item .profile_p{
+        width: 100%;
+    }
+
+    .ourTeam .ourTeam__profiles{
+        flex-direction: column;
+    }
+
+    .questions .celda .options{
+        display: none;
+    }
+
+    .questions .celda a{
+        display: none;
+    }
+
+}

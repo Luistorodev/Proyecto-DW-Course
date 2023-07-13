@@ -1,0 +1,504 @@
+.hero-banner{
+    padding-top: 80px;
+    padding-bottom: 156px;
+    text-align: center;
+}
+
+.hero-banner .p-description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    text-align: center;
+    letter-spacing: -0.1px;
+    
+    /* Primary/600 */
+    
+    color: #437EF7;
+}
+
+.hero-banner h1{
+    color: var(--gray-700, #272D37);
+    text-align: center;
+    font-size: 3rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: -0.0325rem;
+}
+
+.hero-banner .L-description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    text-align: center;
+    letter-spacing: -0.1px;
+    
+    /* Gray/50 */
+    
+    color: #5F6D7E;
+}
+
+/* First Section Finish */
+
+/* Second Section */
+.plans__stack{
+    display: flex;
+    padding: 64px 5%;
+    gap: 32px;
+    justify-content: center;
+}
+
+.plans__stack .plans__stack--items{
+    width: 384px;
+    padding: 32px;
+    background: #FFFFFF;
+    /* Neutral/600 */
+
+    border: 1px solid #EAEBF0;
+    /* Shadow/XSM */
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 5px;
+}
+
+.plans__stack .plans__stack--items h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+    
+    letter-spacing: -0.02em;
+    
+    /* Gray/700 */
+    
+    color: #272D37;
+    margin-top: auto;
+}
+
+.plans__stack .plans__stack--items span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    
+    
+    /* Gray/50 */
+    
+    color: #5F6D7E;   
+}
+
+.plans__stack .plans__stack--items .plan-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: -0.02em;
+    
+    /* Gray/700 */
+    
+    color: #272D37;
+}
+
+.plans__stack .plans__stack--items .plan-desc{
+/* Text L/Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: -0.1px;
+
+/* Gray/50 */
+
+color: #5F6D7E;
+}
+
+.plans__stack .plans__stack--items hr{
+    border: 1px solid #EAEBF0;
+}
+
+.plans__stack .plans__stack--items .plan-feat{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.1px;
+    display: flex;
+    gap: 12px;
+}
+
+.plans__stack .plans__stack--items button{
+    width: 100%;
+    padding: 12px 18px;
+    /* Primary/600 */
+
+    background: #437EF7;
+    /* Shadow/XSM */
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 147% */
+    
+    
+    /* Base/White */
+    
+    color: #FFFFFF;
+}
+
+/* Second Section Finish */
+
+/* third Section  */
+
+.messages {
+    padding: 64px 5%;
+}
+
+.messages h2{
+/* Headline M/Desktop/Bold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Gray/700 */
+
+color: #272D37;
+}
+
+.messages p{
+/* Text L/Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: -0.1px;
+
+/* Gray/50 */
+
+color: #5F6D7E;
+}
+
+.messages .benefits__item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 32px;
+    row-gap: 64px;
+    margin-top: 64px;
+}
+
+.messages .benefits__item-card{
+    width: 384px;
+}
+
+.messages .benefits__item-card h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+    
+    letter-spacing: -0.01em;
+    
+    /* Gray/700 */
+    
+    color: #272D37;
+}
+
+.messages .benefits__item-card p{
+/* Text L/Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+text-align: left;
+letter-spacing: -0.1px;
+/* Gray/50 */
+color: #5F6D7E;  
+}
+
+.messages .benefits__item-card a{
+    display: flex;
+    gap: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 147% */
+    /* Primary/600 */
+    color: #437EF7;
+    text-decoration: none;
+}
+
+/* third Section Finish */
+
+
+/* Opinion Section   */
+.opinion{
+    padding: 64px 5%;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.opinion .opinion__items{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.opinion .opinion__items .opinion{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    /* or 136% */
+    
+    letter-spacing: -0.01em;
+    
+    /* Gray/700 */
+    
+    color: #272D37;
+    padding: 0%;
+    
+}
+
+.opinion .opinion__items .author{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.1px;
+    
+    /* Gray/50 */
+    
+    color: #5F6D7E;
+}
+
+.opinion .opinion__items button{
+    padding: 12px;
+    /* Primary/600 */
+
+    background: #437EF7;
+    /* Shadow/XSM */
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    border: none;
+    color: #fefeff;
+    align-content: center;
+    align-items: center;
+}
+
+/* Opinion Section finish */
+
+/* Asked Qestions Section */
+.frecuently{
+    padding: 64px 5%;
+}
+
+.frecuently h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    /* Gray/700 */
+    
+    color: #272D37;
+}
+
+.frecuently p.sect-description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    letter-spacing: -0.1px;
+    
+    /* Gray/50 */
+    
+    color: #5F6D7E;
+    margin-bottom:64px;
+      
+}
+
+.frecuently .accordions-stack{
+    display: flex;
+    gap:16px;
+    justify-content: center;
+    margin-bottom:16px;
+}
+
+.frecuently .accordions-stack .accordion__item{
+    display: flex;
+    width: 632px;
+    justify-content: space-between;
+    padding: 12px 24px;
+    border: 1px solid #DAE0E6;
+    border-radius: 6px;
+    align-items: center;
+
+}
+
+.frecuently .accordions-stack .accordion__item p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.1px;
+    
+    /* Gray/700 */
+    
+    color: #272D37;
+    margin: 0%;
+}
+
+.frecuently .accordions-stack .accordion__item i{
+    margin: 0%;
+    display: flex;
+    color: #272D37;
+}
+/* Asked Qestions Section Finish */
+
+/* Last Section */
+.last__sect{
+    padding: 64px 5%;
+    background: #2B63D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.last__sect h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    /* or 131% */
+    
+    text-align: center;
+    letter-spacing: -0.01em;
+    
+    /* Base/White */
+    
+    color: #FFFFFF; 
+
+}
+
+.last__sect button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 147% */
+
+    text-align: center;
+
+    /* Primary/600 */
+
+    color: #437EF7;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 12px 18px;
+    border: none;
+}
+
+
+/* Media Queries */
+/* 1440px ✅ */
+/* Medium Screen ✅ */
+/* Ipad Pro 12 ✅ */
+
+/* ipad  Media querie ✅ */
+
+@media screen and (width < 800px){
+    
+    .plans__stack{
+        flex-wrap: wrap;
+    }
+    
+    
+    .opinion{
+        flex-direction: column-reverse;
+    }
+
+    .opinion img{
+        height: 100%;
+    }
+
+    .accordions-stack{
+        flex-direction: column;
+    }
+
+    .frecuently .accordions-stack .accordion__item{
+        width: auto;
+    }
+
+}

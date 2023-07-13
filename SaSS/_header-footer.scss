@@ -1,0 +1,177 @@
+
+
+/* Estilos nav Bar  */
+
+nav{
+    background: #F9FAFB;
+    border-bottom: 1px solid #f0eaea;
+
+    .nav-link{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height, or 147% */
+        /* gray/900 */
+        color: #111928;
+    }
+
+
+    button.singup{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height, or 147% */
+    
+    
+        /* gray/900 */
+    
+        color: #111928;
+    }
+
+
+    button.login{
+        @include blue-boton;
+        border: none;
+    }
+    
+}
+
+
+/* Estilos nav Bar */
+
+
+
+
+
+
+
+
+
+
+/* Estilos de Footer*/
+footer{
+    background-color: #111928;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+    .options{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+        
+
+
+        ul{
+            padding:0px;
+            list-style: none;
+
+            strong{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                letter-spacing: -0.1px;
+                /* Neutral/200 */
+                color: #F9F9F9;
+            }
+
+            li{
+                /* Text L/Medium */
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                letter-spacing: -0.1px;
+                /* Neutral/800 */
+                color: #A5ACBA;
+                margin-top: 12px;
+            }
+            
+        }
+    }
+    
+    .add-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            /* Text L/Regular */
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+            text-align: center;
+            letter-spacing: -0.1px;
+            /* Neutral/800 */
+            color: #A5ACBA;
+        }
+
+        a{
+            margin-right: 12px;
+        }
+    }
+    
+}
+
+
+
+/* Estilos de Footer*/
+
+
+
+
+/* Media Queries */
+
+/* Media Querie Para pantallas que con resolucion menor a 1024 px*/
+@media screen and (width < 1024px) {
+
+    nav{
+        background-color: #dcdcdc;
+        width: 100%;
+    }
+}
+    
+
+@media screen and (width < 769px) {
+    footer .options{
+        flex-wrap: wrap;
+        padding-left: 0%;
+        margin-left: 0%;
+        gap: 16px;
+
+    }
+    
+    
+    footer .add-info{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 30px;
+    }
+}
+
+
+
+@media screen and (width < 415px) {
+    
+    footer .options{
+        flex-wrap: wrap;
+        padding-left: 0%;
+        margin-left: 0%;
+        gap: 24px;
+        justify-content: center;
+
+    }
+}

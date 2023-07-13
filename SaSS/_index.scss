@@ -1,0 +1,458 @@
+@import "_vars.scss";
+
+.hero{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/first.page/Heroimg.hero.png);
+    background-size: cover;
+    padding: 64px 5%;
+    
+    h1{
+        @include h1-text;
+        color:$neutral-200;
+    }
+    .hero-items{
+        text-align: center;
+        padding: 80px 5%;
+        width: 100%;
+    }
+
+    .hero-items p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+        text-align: center;
+        letter-spacing: -0.1px;
+        /* Neutral/200 */
+        color: #F9F9F9;
+    }
+
+    button.getstarter{
+        @include blue-boton;
+    }
+
+    button.clase2{
+        @include grey-buttom;
+    }
+}
+
+
+
+.work-easier{
+    margin: 64px 5%;
+
+    h2{
+        @include h2-text;
+        color:$gray-700;
+        text-align: center;
+    }
+
+    .heading p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.1px;
+        color:$gray-50;
+    }
+
+    .benefit{
+        display: flex;
+        margin-top: 64px;
+    
+        .individual{
+            text-align: center;
+            padding-left: 48px;
+            padding-right: 48px;
+
+            h3{
+                @include h3-text;
+                color: $gray-700;
+            }
+
+            p{
+                @include descriptions-text;
+                color:$gray-50;
+            }
+
+            a{
+                @include links;
+                justify-content: center;
+            }
+        }
+    }
+
+}
+
+
+
+.hero2{
+    padding: 64px 5%;
+
+    .heading{
+        h2{
+            @include h2-text;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        p{
+            @include descriptions-text;
+            color:$gray-50;
+            text-align: center;
+        }
+
+
+    }
+
+
+    .h-stack{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3{
+            @include h3-text;
+        }
+
+        p{
+            @include descriptions-text
+        }
+
+        .v-stack-text{
+            display:flex;
+            flex-direction: column;
+            gap: 2rem;
+            text-align: left;
+            margin-right: 124px;
+        }
+
+        a{
+            @include links;
+        }
+    }
+
+
+
+
+
+}
+
+
+
+.blue--{
+    display: flex;
+    justify-content: center;
+    background-color: #2B63D9;
+    margin-top: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+
+
+    .h-stack{
+        display: flex;
+        padding-left: 112px;
+        padding-right: 112px;
+    }
+
+
+
+    .v-stack{
+        padding-top: 93px;
+        padding-left: 3rem;
+        h3{
+            @include h3-text;
+            color: $neutral-25;
+        }
+        ul{
+            padding: 0%;
+        }
+        p{
+            @include descriptions-text;
+            color: $neutral-200;
+        }
+
+        li{
+            display: flex;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.1px;
+            color: #B1CCFB;
+            
+        }
+
+        button{
+            @include blue-boton;
+            border: none;
+            display: flex;
+            margin-top: 3rem;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.proud{
+    padding: 64px 0%;
+
+    h2{
+        @include h2-text;
+        text-align: center;
+        color: $gray-950;
+    }
+
+    p{
+        @include descriptions-text;
+        color: $gray-700;
+        text-align: center;
+    }
+
+    a{
+        @include links;
+        text-align: center;
+        margin-top: 32px;
+        padding-bottom: 64px;
+        justify-content: center;
+    }
+
+    .banner{
+        height: 500px;
+        background-image: url(../img/first.page/Pagination.png);
+        background-size: cover;
+        margin-top: 64px;
+    }
+
+
+}
+
+
+
+.blue-all{
+    background-color: $primary-900;
+    padding: 64px 5% 64px 5%;
+
+
+    .inner-container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+        .v-stackText{
+            margin-right: 120px;
+
+            h2{
+                @include h2-text;
+                color: $neutral-25;
+            }
+
+            p{
+                @include descriptions-text;
+                color:$neutral-300;
+            }
+
+
+        }
+    }
+
+    .btnCustom{
+        display: flex;
+        align-items: center;
+        width: 440px;
+
+    }
+
+    button{
+        @include blue-boton;
+        border: none;
+        border-radius: 0px 6px 6px 0px;
+    }
+
+    input{
+        width: 352px;
+        height: 47px;
+        /* Base/White */
+        background: #FFFFFF;
+        border-radius: 6px 0px 0px 6px;
+        border: none;
+
+        &::placeholder{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height, or 147% */
+            letter-spacing: -0.1px;
+            /* Gray/25 */
+            color: #919BA7;
+            padding-left: 16px;
+        }
+    }
+
+
+}
+
+
+
+// Media Queries
+
+@media screen and (width < 1023px){
+    .work-easier .benefit{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .hero2 .h-stack{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 24px;
+        padding: 0%;
+    }
+
+    .hero2 .h-stack .v-stack-text{
+        margin: 0%;
+    }
+
+    .blue-- .h-stack{
+        flex-direction: column;
+    }
+
+    .blue-- .h-stack .v-stack{
+        padding: 0;
+    }
+
+    .blue-all .inner-container{
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    .blue-all .inner-container .v-stackText{
+        margin-right: 0%;
+    }
+
+    .blue-all .inner-container .btnCustom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .blue-all .inner-container .btnCustom input{
+        width: 100%;
+        height: 52px;
+        /* Base/White */
+        background: #FFFFFF;
+        border-radius: 6px 6px 6px 6px;
+        border: none;
+    }
+
+    .blue-all .inner-container .btnCustom button{
+        width: 100%;
+        height: 52px;
+        border: none;
+        
+        /* Primary/600 */
+        background: #437EF7;
+        border-radius: 6px 6px 6px 6px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+    }
+ }
+
+ @media screen and (width < 768px){
+    
+    .hero .hero-items{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero .hero-items .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .hero .hero-items .btns .getstarter{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        @include blue-boton
+    }
+
+    .hero .hero-items .btns .clase2{
+        width: 100%;
+        padding: 0%;
+        @include grey-buttom;
+    }
+
+    .hero2 img{
+        width: 95%;
+    }
+
+    .blue-- img{
+        width: 100%;
+    }
+
+    .blue-- .h-stack{
+        padding: 5%;
+    }
+
+    .proud .banner{
+        height: 300px;
+        background-image: url(../img/first.page/Pagination.png);
+        background-size: cover;
+        margin-top: 64px;
+    }
+
+    .proud .intenal a{
+        padding-bottom: 0%;
+    }
+
+    .hero h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        /* or 122% */
+
+        text-align: center;
+        letter-spacing: -0.02em;
+
+        /* Neutral/200 */
+
+        color: #F9F9F9;
+    }
+
+
+ }
+
+ @media screen and (width < 360px){
+    .hero{
+        padding-left: 5%;
+    }
+ }
