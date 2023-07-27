@@ -1,7 +1,7 @@
 body.errorpage{
     text-align: center;
     img{
-        width: 500px;
+        width: 200px;
     }
     p{
         @include descriptions-text;

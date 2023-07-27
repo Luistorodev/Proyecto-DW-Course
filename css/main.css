@@ -2410,7 +2410,7 @@ body.errorpage {
   text-align: center;
 }
 body.errorpage img {
-  width: 500px;
+  width: 200px;
 }
 body.errorpage p {
   font-family: Inter;
