@@ -1,0 +1,15 @@
+body.errorpage{
+    text-align: center;
+    img{
+        width: 500px;
+    }
+    p{
+        @include descriptions-text;
+        margin-bottom: 3rem;
+    }
+    a{
+        @include blue-boton;
+        text-decoration: none;
+        border: none;
+    }
+}
